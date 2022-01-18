@@ -10,5 +10,5 @@ import  osszeg
 class TestOsszeg(TestCase):
     def test_feladat04_osszeg(self):
         aktualis = osszeg.feladat04_osszeg()
-        elvart = 36
+        elvart = 40
         self.assertEqual(elvart, aktualis, "Az összeget helytelenül határozta meg!")
